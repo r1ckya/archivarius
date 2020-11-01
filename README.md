@@ -3,6 +3,16 @@
 ## Run project:
 ``` sudo docker/run.sh --init ```
 
+## Links:
+
+Live демо: http://178.154.225.145:5000
+
+Видео демо: https://bit.ly/2TEEh2U
+
+Репозиторий: https://github.com/r1ckya/archivarius
+
+Описание Rest-API: https://bit.ly/2HISb1N
+
 
 ## Rest API
 Post file:
