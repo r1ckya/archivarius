@@ -1,8 +1,10 @@
-# poedim
+# Архивариус
 
-Run project:
+## Run project:
 ``` sudo docker/run.sh --init ```
 
+
+## Rest API
 Post file:
 
 ``` curl -i -X POST -F "file=@tmp" localhost:5000/api/upload ```
