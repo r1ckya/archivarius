@@ -23,11 +23,5 @@ Search:
 curl -d '{"doc_id":"3345218050"}' -H "Content-Type: application/json" -X POST http://localhost:5000/api/search
 ```
 
-Run redis:
-``` docker run --restart=always -d --name redis_1 \
-   -v /opt/redis/etc/redis.conf:/usr/local/etc/redis/redis.conf \
-   -v /opt/redis/data:/data \
-   -p 127.0.0.1:6379:6379 redis redis-server ```
-
 Run MySQL:
 ``` sudo docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=1234 -d mysql:latest ```
