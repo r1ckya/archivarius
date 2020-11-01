@@ -1,0 +1,11 @@
+scikit-learn
+PyMuPDF
+Pillow
+pre-commit
+pdf2image
+walrus
+flask
+XlsxWriter
+pandas
+werkzeug
+PyMySQL
